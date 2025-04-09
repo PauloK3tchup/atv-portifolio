@@ -1,0 +1,90 @@
+/* ====================
+    GERAL
+   ====================*/
+
+html {
+  font-size: calc(15px + 0.390625vw);
+}
+
+body {
+  background: white;
+  color: #21243d;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+p {
+  line-height: 130%;
+}
+
+a {
+  text-decoration: none;
+  color: #21243d;
+}
+
+a:hover {
+  color: #ff6464;
+}
+
+/* ====================
+    ESPECÍFICO
+   ====================*/
+
+header ul li {
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+section.banner {
+  text-align: center;
+  padding: 0 5%;
+}
+
+section.banner h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 10px 0 10px 0;
+}
+
+section.banner p button {
+  transition: 0.15s;
+  background-color: #ff6464;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 10px 0 50px;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+}
+
+/* section.banner p button:hover {
+  cursor: pointer;
+  background-color: #142850;
+} */
+
+section.posts {
+  background-color: #edf7fa;
+  padding: 15px;
+}
+
+section.posts h2 {
+  text-align: center;
+}
+
+section.posts li {
+  margin: 15px 0;
+  background-color: white;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+section.posts li h3 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 130%;
+}
+
+section.posts li p {
+  margin: 20px 0 0 0;
+}
