@@ -13,6 +13,10 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 
+section {
+  padding: 15px;
+}
+
 p {
   line-height: 130%;
 }
@@ -26,8 +30,20 @@ a:hover {
   color: #ff6464;
 }
 
+section h2 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
 /* ====================
     ESPECÍFICO
+   ====================*/
+
+/* ====================
+    HEADER e FOOTER
    ====================*/
 
 header ul li {
@@ -35,9 +51,29 @@ header ul li {
   padding: 10px 0 10px 0;
 }
 
+footer {
+  text-align: center;
+  margin: 0 0 25px 0;
+}
+
+footer a {
+  font-size: 2.3rem;
+  margin: 10px 15px;
+}
+
+/* ====================
+    INDEX
+   ====================*/
+
 section.banner {
   text-align: center;
-  padding: 0 5%;
+}
+
+section.banner img {
+  border-radius: 100%;
+  max-width: 55%;
+  box-shadow: -10px 10px #edf7fa;
+  margin: 20px 0;
 }
 
 section.banner h1 {
@@ -65,11 +101,6 @@ section.banner p button {
 
 section.posts {
   background-color: #edf7fa;
-  padding: 15px;
-}
-
-section.posts h2 {
-  text-align: center;
 }
 
 section.posts li {
@@ -87,4 +118,99 @@ section.posts li h3 {
 
 section.posts li p {
   margin: 20px 0 0 0;
+}
+
+section.works {
+  padding: 20px 10px 20px 10px;
+}
+
+section.works ul li {
+  margin: 15px 0;
+}
+
+section.works ul li h3 {
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 130%;
+  margin: 15px 0 0 0;
+}
+
+section.works ul li p {
+  margin: 15px 0;
+}
+
+section.works ul li p.info {
+  color: #8695a4;
+}
+
+section.works ul li p.info span {
+  color: white;
+  background-color: #142850;
+  font-weight: bold;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+section.works ul {
+  border-bottom: 1px solid #8695a4;
+}
+
+/* ====================
+    WORKS
+   ====================*/
+
+section.dashb {
+  padding: 15px;
+}
+
+section.dashb h1 {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+section.dashb h2 {
+  font-size: 1.7rem;
+  text-align: left;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+section.dashb p {
+  margin: 15px 0;
+}
+
+section.dashb p.info {
+  color: #8695a4;
+}
+
+section.dashb div {
+  display: inline-block;
+}
+section.dashb div.info {
+  width: 70%;
+}
+
+section.dashb div span {
+  color: white;
+  background-color: #ff6464;
+  font-weight: bold;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin: 10px 10px 10px 0;
+}
+
+section.carro h2 {
+  text-align: left;
+  font-size: 1.5rem;
+  margin: 0 0 15px 0;
+}
+
+section.carro h3 {
+  text-align: left;
+  font-size: 1.1rem;
+  margin: 0 0 15px 0;
+}
+
+section.carro img {
+  margin: 20px 0;
 }
