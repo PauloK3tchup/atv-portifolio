@@ -214,3 +214,80 @@ section.carro h3 {
 section.carro img {
   margin: 20px 0;
 }
+
+/* ====================
+    COMPUTADOR
+   ====================*/
+
+@media (min-width: 900px) {
+  section {
+    padding: 3% 12%;
+  }
+
+  header ul {
+    display: flex;
+    justify-content: right;
+    padding: 0 20px;
+  }
+  header ul li {
+    margin: 20px;
+  }
+
+  section.banner img {
+    max-width: 100%;
+  }
+  section.banner {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+  }
+  .banner .texto {
+    margin: 0 7vw 0 0;
+  }
+
+  section h2 {
+    text-align: left;
+    font-size: 1.4rem;
+    padding: 10px 0;
+  }
+
+  /* ====================
+    POSTS
+   ====================*/
+
+  section.posts ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  section.posts ul li {
+    padding: 2%;
+    width: 45%;
+  }
+
+  .espaco {
+    padding: 2% 0;
+  }
+
+  /* ====================
+    WORKS
+   ====================*/
+
+  section.works {
+    padding: 3% 12%;
+  }
+
+  section.works ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  section.works ul li {
+    width: 45%;
+    height: 100%;
+  }
+
+  section.works ul {
+    border-bottom: none;
+  }
+}
